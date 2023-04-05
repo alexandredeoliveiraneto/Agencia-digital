@@ -1,0 +1,46 @@
+@media screen and (max-width:1005px){
+    .navbar{
+        position: relative;
+    } /*quando chegar em 1005px o navbar não vai ser mais fixo quando rolar para baixo*/
+
+    .menu{
+        display: none;
+    }/*quando chegar em 1005px o menu vai sumir*/
+
+    .logo{
+        margin: 0;
+        text-align: center;
+    } /*quando chegar em 1005px o logo vai ficar no centro e com margin 0*/
+
+    .header{
+        padding-top: 50px;
+    } /*antes tava um um paddind top de 100px, muito grande.*/
+
+    .headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    } /*quando chegar a 1005px a parte do texto vai ficar 100% com margin de 5 e alinhado ao centro*/
+
+    .headline p{
+        text-align: center;
+    } /*quando chegar em 1005px p paragrafo vai ficar alinhado ao centro*/
+
+    .img-headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+    } /*quando chegar em 1005px a imagem vai ficar com display flex de 100%, com margin de 5 e alinhado ao centro*/
+
+    .card{
+        width: 100%;
+    } /*quando chegar em 1005px o card vai ocupar 100% da tela*/
+
+    .whats{
+        width: 30px;
+        right: 30px;
+        margin: 20px;
+    } /*quando chegar em 1005px o simbolo do whats vai diminuir*/
+
+
+}
